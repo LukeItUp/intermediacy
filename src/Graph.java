@@ -3,6 +3,8 @@
  */
 // package si.lj.uni.fri.lna.test.bib;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -47,6 +49,12 @@ public class Graph {
 	private int m;
 
 	/**
+	 * Node attributes in the graph.
+	 */
+	private ArrayList<HashMap<String,String>> attributes;
+
+
+	/**
 	 * Constructs a graph with the specified labels of the nodes and the indices of their successors.
 	 * <p>
 	 * The length of the arrays of labels and successors must equal the number of nodes in the graph {@literal n}. 
@@ -71,7 +79,34 @@ public class Graph {
 		setPredecessors();
 		setM();
 	}
-	
+
+	/**
+	 * Constructs a graph with the specified labels of the nodes and the indices of their successors.
+	 * <p>
+	 * The length of the arrays of labels and successors must equal the number of nodes in the graph {@literal n}.
+	 * The indices of the successors must be between {@literal 0} and {@literal n-1}, whereas the labels of the nodes can be arbitrary integers.
+	 * <p>
+	 * The constructor runs in linear time {@literal O(m)}, where {@literal m} is the number of edges in the graph.
+	 *
+	 * @param name the name of the graph
+	 * @param labels the labels of the nodes
+	 * @param successors the indices of the successors
+	 * @param attributes node attributes
+	 */
+	public Graph(String name, int[] labels, int[][] successors, ArrayList<HashMap<String, String>> attributes) {
+		super();
+		this.name = name;
+		this.labels = labels;
+		this.successors = successors;
+		this.attributes = attributes;
+
+		for (int i = 0; i < successors.length; i++)
+			if (successors[i] == null)
+				successors[i] = new int[0];
+
+		setPredecessors();
+		setM();
+	}
 	/**
 	 * @deprecated Replaced by {@link #Graph(String, int[], int[][])}
 	 */
@@ -131,7 +166,25 @@ public class Graph {
 			for (int j = 0; j < successors[i].length; j++)
 				predecessors[successors[i][j]][--degrees[successors[i][j]]] = i;
 	}
-	
+
+	/**
+	 * Returns the attributes of the nodes in the graph.
+	 *
+	 * @return the attributes of the nodes
+	 */
+	public ArrayList<HashMap<String, String>> getAttributes() {
+		return attributes;
+	}
+
+	/**
+	 * Returns the attributes of the node in the graph.
+	 *
+	 * @return the attributes of the given node
+	 */
+	public HashMap<String, String> getNodeAttributes(int node) {
+		return attributes.get(node);
+	}
+
 	/**
 	 * Returns the labels of the nodes in the graph. 
 	 * 

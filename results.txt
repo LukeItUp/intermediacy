@@ -1,0 +1,415 @@
+----------------------------------------------
+----------------- ANALYSIS 1 -----------------
+----------------------------------------------
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.010000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+            '9' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+          '706' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+          '716' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+          '721' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+          '743' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+          '939' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+          '969' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+         '1010' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '1011' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+         '1199' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+         '1724' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+         '1792' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '1949' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '2230' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '2232' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '2264' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '2509' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '2511' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '2517' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '2524' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+         '2539' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '2637' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.700000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+            '9' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+          '706' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+          '716' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+          '721' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+          '743' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+          '939' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+          '969' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+         '1010' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '1011' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+         '1199' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+         '1724' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+         '1792' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '1949' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '2230' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '2232' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '2264' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '2509' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '2511' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '2517' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '2524' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+         '2539' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '2637' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.850000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000238000000000000000000000000 ± 0.000015425412668710034000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.000238000000000000000000000000 ± 0.000015425412668710034000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.000238000000000000000000000000 ± 0.000030233808830671666000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.000238000000000000000000000000 ± 0.000030233808830671666000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.000238000000000000000000000000 ± 0.000030233808830671666000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.000238000000000000000000000000 ± 0.000030233808830671666000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+        '14535' | 0.000238000000000000000000000000 ± 0.000030233808830671666000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+         '9756' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '11305' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '35082' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+        '35085' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '38840' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '40399' | 0.000235000000000000000000000000 ± 0.000030042700405256516000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+        '37039' | 0.000168000000000000000000000000 ± 0.000025402369469827022000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '37461' | 0.000155000000000000000000000000 ± 0.000024399911999021636000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '14533' | 0.000150000000000000000000000000 ± 0.000024003199036795072000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '14534' | 0.000115000000000000000000000000 ± 0.000021017449770131487000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+        '10935' | 0.000109000000000000000000000000 ± 0.000020461885493531624000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+        '22456' | 0.000097000000000000000000000000 ± 0.000019302825036392990000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+        '22458' | 0.000091000000000000000000000000 ± 0.000018696357605437485000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+        '33948' | 0.000087000000000000000000000000 ± 0.000018280867674418520000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '5321' | 0.000085000000000000000000000000 ± 0.000018069539131920327000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '5077' | 0.000076000000000000000000000000 ± 0.000017086234544755612000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+        '14511' | 0.000076000000000000000000000000 ± 0.000017086234544755612000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+        '35416' | 0.000071000000000000000000000000 ± 0.000016514667253517400000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+        '21349' | 0.000066000000000000000000000000 ± 0.000015922589801612048000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+        '22455' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.999900
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.999483000000000000000000000000 ± 0.000022731755563528077000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.999483000000000000000000000000 ± 0.000022731755563528077000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+        '14534' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+        '14535' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '33948' | 0.999483000000000000000000000000 ± 0.000044554240904515030000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '14533' | 0.999482000000000000000000000000 ± 0.000044597286986112405000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+        '35416' | 0.999004000000000000000000000000 ± 0.000061825744405824900000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '10935' | 0.998988000000000000000000000000 ± 0.000062319859181561470000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '40399' | 0.998958000000000000000000000000 ± 0.000063235876913486000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '5321' | 0.998954000000000000000000000000 ± 0.000063357007852126090000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '21349' | 0.998512000000000000000000000000 ± 0.000075549949996077240000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '14511' | 0.998492000000000000000000000000 ± 0.000076055221751944310000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '38840' | 0.998446000000000000000000000000 ± 0.000077204723033598220000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+        '35082' | 0.998445000000000000000000000000 ± 0.000077229521008225200000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+        '37039' | 0.998445000000000000000000000000 ± 0.000077229521008225200000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '5077' | 0.998442000000000000000000000000 ± 0.000077303866904944680000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+        '37461' | 0.997955000000000000000000000000 ± 0.000088543810245323520000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+        '35085' | 0.997927000000000000000000000000 ± 0.000089146666684254480000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '5074' | 0.997457000000000000000000000000 ± 0.000098713452745213270000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+        '37038' | 0.997420000000000000000000000000 ± 0.000099427143043336530000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+            '9' | 0.997043000000000000000000000000 ± 0.000106423779437123700000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+          '462' | 0.997043000000000000000000000000 ± 0.000106423779437123700000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+          '716' | 0.997043000000000000000000000000 ± 0.000106423779437123700000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 10.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.966037000000000000000000000000 ± 0.000181133968738610600000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.966037000000000000000000000000 ± 0.000181133968738610600000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.966037000000000000000000000000 ± 0.000355022578727676800000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.966037000000000000000000000000 ± 0.000355022578727676800000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.966037000000000000000000000000 ± 0.000355022578727676800000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.966037000000000000000000000000 ± 0.000355022578727676800000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+        '14535' | 0.966037000000000000000000000000 ± 0.000355022578727676800000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+        '14534' | 0.965283000000000000000000000000 ± 0.000358801702373466360000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '14533' | 0.965281000000000000000000000000 ± 0.000358811665550916250000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '33948' | 0.965239000000000000000000000000 ± 0.000359020818521665300000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+        '40399' | 0.950249000000000000000000000000 ± 0.000426162949183711100000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '10935' | 0.947425000000000000000000000000 ± 0.000437439636739745050000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '35416' | 0.947070000000000000000000000000 ± 0.000438831766680763570000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '5321' | 0.945074000000000000000000000000 ± 0.000446558093854986000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '38840' | 0.934396000000000000000000000000 ± 0.000485273657322190050000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '37039' | 0.933802000000000000000000000000 ± 0.000487310653009262140000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '35082' | 0.933183000000000000000000000000 ± 0.000489421413368742600000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '5077' | 0.930807000000000000000000000000 ± 0.000497412817416119100000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+        '21349' | 0.928799000000000000000000000000 ± 0.000504034179246128300000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+        '14511' | 0.928466000000000000000000000000 ± 0.000505120888995803000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+        '37461' | 0.916046000000000000000000000000 ± 0.000543544879983221200000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+        '35085' | 0.911341000000000000000000000000 ± 0.000557131790092533300000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+        '37038' | 0.895591000000000000000000000000 ± 0.000599349158319347500000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '5074' | 0.890559000000000000000000000000 ± 0.000611895763297140800000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '9756' | 0.885125000000000000000000000000 ± 0.000624987220649350500000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+        '11305' | 0.885125000000000000000000000000 ± 0.000624987220649350500000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+          '462' | 0.879918000000000000000000000000 ± 0.000637112503943441500000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 500.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.001009000000000000000000000000 ± 0.000031748730982513300000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.001009000000000000000000000000 ± 0.000031748730982513300000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.001009000000000000000000000000 ± 0.000062227512725726070000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.001009000000000000000000000000 ± 0.000062227512725726070000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.001009000000000000000000000000 ± 0.000062227512725726070000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.001009000000000000000000000000 ± 0.000062227512725726070000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+        '14535' | 0.001009000000000000000000000000 ± 0.000062227512725726070000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+        '40399' | 0.000993000000000000000000000000 ± 0.000061732655816525500000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '38840' | 0.000989000000000000000000000000 ± 0.000061608318029032410000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '35082' | 0.000976000000000000000000000000 ± 0.000061202468774048650000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+         '9756' | 0.000975000000000000000000000000 ± 0.000061171137630421750000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '11305' | 0.000975000000000000000000000000 ± 0.000061171137630421750000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '35085' | 0.000975000000000000000000000000 ± 0.000061171137630421750000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+        '37039' | 0.000727000000000000000000000000 ± 0.000052828144042674830000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '37461' | 0.000697000000000000000000000000 ± 0.000051727448382320200000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '14533' | 0.000598000000000000000000000000 ± 0.000047915582313831904000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '14534' | 0.000568000000000000000000000000 ± 0.000046698922981602055000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+        '33948' | 0.000531000000000000000000000000 ± 0.000045153144061320916000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+        '10935' | 0.000498000000000000000000000000 ± 0.000043728298249915920000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+        '22458' | 0.000457000000000000000000000000 ± 0.000041890439072437520000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '5077' | 0.000440000000000000000000000000 ± 0.000041104260925602350000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '5321' | 0.000404000000000000000000000000 ± 0.000039387553737372416000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+        '35416' | 0.000398000000000000000000000000 ± 0.000039094095144837405000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+        '22456' | 0.000395000000000000000000000000 ± 0.000038946535331913675000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+        '21349' | 0.000376000000000000000000000000 ± 0.000037998664318083600000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+        '14511' | 0.000351000000000000000000000000 ± 0.000036714143201747194000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+        '22455' | 0.000326000000000000000000000000 ± 0.000035382952535343910000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 750.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000057000000000000000000000000 ± 0.000007549619261923080000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.000057000000000000000000000000 ± 0.000007549619261923080000000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+         '9756' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+        '11305' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '14535' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '35082' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+        '35085' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '38840' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '40399' | 0.000057000000000000000000000000 ± 0.000014797253753369238000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+        '37039' | 0.000039000000000000000000000000 ± 0.000012239957390710150000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '37461' | 0.000037000000000000000000000000 ± 0.000011921993996374935000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '14533' | 0.000031000000000000000000000000 ± 0.000010912649001154577000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '10935' | 0.000027000000000000000000000000 ± 0.000010184321257383822000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '5321' | 0.000026000000000000000000000000 ± 0.000009993948322780140000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+        '22456' | 0.000024000000000000000000000000 ± 0.000009601884567021205000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+        '14534' | 0.000023000000000000000000000000 ± 0.000009399721687028823000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+        '21349' | 0.000022000000000000000000000000 ± 0.000009193113763333945000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+        '22455' | 0.000019000000000000000000000000 ± 0.000008543360766255865000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+        '33948' | 0.000016000000000000000000000000 ± 0.000007839937279749118000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+        '14511' | 0.000015000000000000000000000000 ± 0.000007590990425497847000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+        '22458' | 0.000014000000000000000000000000 ± 0.000007333597142357902000000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+        '35416' | 0.000013000000000000000000000000 ± 0.000007066834565036880000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '5077' | 0.000010000000000000000000000000 ± 0.000006198033223531477000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 1000.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000006000000000000000000000000 ± 0.000002449482394302927200000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         Target | 0.000006000000000000000000000000 ± 0.000002449482394302927200000000 | {year=2011, label=26, title= "community detection using a neighborhood strength driven label propagation algorithm", paper_id=2118059508}
+         '2524' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+         '2637' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+         '6752' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+         '9139' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+         '9756' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+        '11305' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+        '14535' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+        '35082' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+        '35085' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+        '37039' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+        '38840' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+        '40399' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+        '10935' | 0.000003000000000000000000000000 ± 0.000003394814490601806200000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+        '14511' | 0.000003000000000000000000000000 ± 0.000003394814490601806200000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+        '14533' | 0.000003000000000000000000000000 ± 0.000003394814490601806200000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+        '37461' | 0.000003000000000000000000000000 ± 0.000003394814490601806200000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '5321' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+        '14534' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+        '22458' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '5077' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+        '21349' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+        '22456' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+        '33948' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2013, label=26, title= "overlapping community detection in networks the state of the art and comparative study", paper_id=1977713568}
+        '35416' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+        '37038' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+
+----------------------------------------------
+----------------- ANALYSIS 2 -----------------
+----------------------------------------------
+
+
+Method: f(x) = alpha^x
+Edge weight(x): 2.000000
+Samples: 1000000
+Alpha X,Y (non-zero): 0.000000, 0.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.100000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.100000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.500000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.600000, 0.600000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.600000, 0.700000 (true,true) | Correlation: 0.611016
+Alpha X,Y (non-zero): 0.600000, 0.800000 (true,true) | Correlation: 0.595927
+Alpha X,Y (non-zero): 0.600000, 0.900000 (true,true) | Correlation: 0.594770
+Alpha X,Y (non-zero): 0.700000, 0.700000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.700000, 0.800000 (true,true) | Correlation: 0.968420
+Alpha X,Y (non-zero): 0.700000, 0.900000 (true,true) | Correlation: 0.959497
+Alpha X,Y (non-zero): 0.800000, 0.800000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.800000, 0.900000 (true,true) | Correlation: 0.993882
+Alpha X,Y (non-zero): 0.900000, 0.900000 (true,true) | Correlation: 1.000000
+
+
+Method: f(x) = x/(x + alpha)
+Edge weight(x): 500.000000
+Samples: 1000000
+Alpha X,Y (non-zero): 0.000000, 0.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.000000, 100.000000 (true,true) | Correlation: 0.357081
+Alpha X,Y (non-zero): 0.000000, 200.000000 (true,true) | Correlation: 0.286431
+Alpha X,Y (non-zero): 0.000000, 300.000000 (true,true) | Correlation: 0.276222
+Alpha X,Y (non-zero): 0.000000, 400.000000 (true,true) | Correlation: 0.276686
+Alpha X,Y (non-zero): 0.000000, 500.000000 (true,true) | Correlation: 0.301048
+Alpha X,Y (non-zero): 0.000000, 600.000000 (true,true) | Correlation: 0.311605
+Alpha X,Y (non-zero): 0.000000, 700.000000 (true,true) | Correlation: 0.339796
+Alpha X,Y (non-zero): 0.000000, 800.000000 (true,true) | Correlation: 0.402789
+Alpha X,Y (non-zero): 0.000000, 900.000000 (true,true) | Correlation: 0.323096
+Alpha X,Y (non-zero): 100.000000, 100.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 100.000000, 200.000000 (true,true) | Correlation: 0.652388
+Alpha X,Y (non-zero): 100.000000, 300.000000 (true,true) | Correlation: 0.273004
+Alpha X,Y (non-zero): 100.000000, 400.000000 (true,true) | Correlation: 0.295679
+Alpha X,Y (non-zero): 100.000000, 500.000000 (true,true) | Correlation: 0.488625
+Alpha X,Y (non-zero): 100.000000, 600.000000 (true,true) | Correlation: 0.554726
+Alpha X,Y (non-zero): 100.000000, 700.000000 (true,true) | Correlation: 0.793879
+Alpha X,Y (non-zero): 100.000000, 800.000000 (true,true) | Correlation: 0.555880
+Alpha X,Y (non-zero): 100.000000, 900.000000 (true,true) | Correlation: 0.593500
+Alpha X,Y (non-zero): 200.000000, 200.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 200.000000, 300.000000 (true,true) | Correlation: 0.435717
+Alpha X,Y (non-zero): 200.000000, 400.000000 (true,true) | Correlation: 0.416454
+Alpha X,Y (non-zero): 200.000000, 500.000000 (true,true) | Correlation: 0.538997
+Alpha X,Y (non-zero): 200.000000, 600.000000 (true,true) | Correlation: 0.575826
+Alpha X,Y (non-zero): 200.000000, 700.000000 (true,true) | Correlation: 0.603172
+Alpha X,Y (non-zero): 200.000000, 800.000000 (true,true) | Correlation: 0.409806
+Alpha X,Y (non-zero): 200.000000, 900.000000 (true,true) | Correlation: 0.501656
+Alpha X,Y (non-zero): 300.000000, 300.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 300.000000, 400.000000 (true,true) | Correlation: 0.682867
+Alpha X,Y (non-zero): 300.000000, 500.000000 (true,true) | Correlation: 0.735110
+Alpha X,Y (non-zero): 300.000000, 600.000000 (true,true) | Correlation: 0.523985
+Alpha X,Y (non-zero): 300.000000, 700.000000 (true,true) | Correlation: 0.414407
+Alpha X,Y (non-zero): 300.000000, 800.000000 (true,true) | Correlation: 0.479213
+Alpha X,Y (non-zero): 300.000000, 900.000000 (true,true) | Correlation: 0.381452
+Alpha X,Y (non-zero): 400.000000, 400.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 400.000000, 500.000000 (true,true) | Correlation: 0.738522
+Alpha X,Y (non-zero): 400.000000, 600.000000 (true,true) | Correlation: 0.534850
+Alpha X,Y (non-zero): 400.000000, 700.000000 (true,true) | Correlation: 0.376546
+Alpha X,Y (non-zero): 400.000000, 800.000000 (true,true) | Correlation: 0.649134
+Alpha X,Y (non-zero): 400.000000, 900.000000 (true,true) | Correlation: 0.325879
+Alpha X,Y (non-zero): 500.000000, 500.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 500.000000, 600.000000 (true,true) | Correlation: 0.708043
+Alpha X,Y (non-zero): 500.000000, 700.000000 (true,true) | Correlation: 0.588755
+Alpha X,Y (non-zero): 500.000000, 800.000000 (true,true) | Correlation: 0.413095
+Alpha X,Y (non-zero): 500.000000, 900.000000 (true,true) | Correlation: 0.466366
+Alpha X,Y (non-zero): 600.000000, 600.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 600.000000, 700.000000 (true,true) | Correlation: 0.602612
+Alpha X,Y (non-zero): 600.000000, 800.000000 (true,true) | Correlation: 0.541866
+Alpha X,Y (non-zero): 600.000000, 900.000000 (true,true) | Correlation: 0.618666
+Alpha X,Y (non-zero): 700.000000, 700.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 700.000000, 800.000000 (true,true) | Correlation: 0.695551
+Alpha X,Y (non-zero): 700.000000, 900.000000 (true,true) | Correlation: 0.680323
+Alpha X,Y (non-zero): 800.000000, 800.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 800.000000, 900.000000 (true,true) | Correlation: 0.556333
+Alpha X,Y (non-zero): 900.000000, 900.000000 (true,true) | Correlation: 1.000000

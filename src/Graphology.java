@@ -7,10 +7,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import java.util.*;
 
 /**
  * {@link Graph} functions and I/O methods implemented using arrays and primitive types.
@@ -79,7 +76,7 @@ public class Graphology {
 	public static boolean[] intermediate(Graph graph, int source, int target) {
 		return component(graph, component(graph, null, source, false), target, true);
 	}
-	
+
 	/**
 	 * Finds the intermediate nodes located on a directed path between the specified source and target nodes 
 	 * whereby each edge of the graph is sampled independently with the specified probability. 
@@ -127,7 +124,65 @@ public class Graphology {
 
 		return component(new Graph(graph.getName(), graph.getLabels(), successors), component, target, true);
 	}
-	
+
+	public static double method_x_alpha(Double x, Double alpha) {
+		return Math.pow(x, alpha);
+	}
+
+	public static double method_alpha_x(Double x, Double alpha) {
+		return Math.pow(alpha, x);
+	}
+
+	public static double method_x_div_x_alpha(Double x, Double alpha) {
+		return x / (x + alpha);
+	}
+
+	public static boolean[] intermediate_extended(Graph graph, int source, int target, HashMap<String, Double> weights, int method, Double alpha) {
+		int[][] successors = new int[graph.getN()][];
+
+		boolean[] component = new boolean[graph.getN()];
+		component[source] = true;
+
+		Deque<Integer> stack = new ArrayDeque<Integer>();
+		stack.push(source);
+
+		while (stack.size() > 0) {
+			int node = stack.pop();
+
+			List<Integer> nodes = new ArrayList<Integer>();
+			for (int successor: graph.getSuccessors(node)) {
+				Double probability = 0.5;
+				String edge = Integer.toString(node) + "-" + Integer.toString(successor);
+				Double edge_weight = weights.get(edge);
+				switch (method) {
+					case 1:
+						probability = method_x_alpha(edge_weight, alpha);
+						break;
+					case 2:
+						probability = method_alpha_x(edge_weight, alpha);
+						break;
+					case 3:
+						probability = method_x_div_x_alpha(edge_weight, alpha);
+				}
+
+				if (Math.random() < probability) {
+					nodes.add(successor);
+
+					if (!component[successor]) {
+						component[successor] = true;
+						stack.push(successor);
+					}
+				}
+			}
+
+			successors[node] = new int[nodes.size()];
+			for (int i = 0; i < successors[node].length; i++)
+				successors[node][i] = nodes.get(i);
+		}
+
+		return component(new Graph(graph.getName(), graph.getLabels(), successors), component, target, true);
+	}
+
 	/**
 	 * Computes the intermediacy of the nodes in a graph for the specified source and target nodes. 
 	 * The intermediacy is the probability that a node is located on a directed path between the source and target nodes
@@ -165,7 +220,26 @@ public class Graphology {
 
 		return intermediacy;
 	}
-	
+
+	public static double[] intermediacy_extended(Graph graph, int source, int target, int samples, HashMap<String, Double> weights, int method, Double alpha) {
+		double[] intermediacy = new double[graph.getN()];
+
+		int s = 0;
+		while (s++ < samples) {
+			boolean[] intermediate = Graphology.intermediate_extended(graph, source, target, weights, method, alpha);
+
+			for (int i = 0; i < intermediacy.length; i++)
+				if (intermediate[i])
+					intermediacy[i]++;
+		}
+
+		for (int i = 0; i < intermediacy.length; i++)
+			intermediacy[i] /= samples;
+
+		return intermediacy;
+	}
+
+
 	/**
 	 * Constructs a subgraph of the graph induced by the specified nodes.
 	 * <p>
@@ -192,11 +266,12 @@ public class Graphology {
 		
 		int[] labels = new int[n];
 		int[][] successors = new int[n][];
-		
+		ArrayList<HashMap<String, String>> attributes = new ArrayList<>();
+
 		for (int i = 0; i < graph.getN(); i++)
 			if (nodes[i]) {
 				labels[mapping[i]] = graph.getLabel(i);
-				
+				attributes.add(graph.getNodeAttributes(i));
 				int degree = 0;
 				for (int successor: graph.getSuccessors(i))
 					if (nodes[successor])
@@ -208,7 +283,7 @@ public class Graphology {
 						successors[mapping[i]][--degree] = mapping[successor];
 			}
 		
-		return new Graph(graph.getName(), labels, successors);
+		return new Graph(graph.getName(), labels, successors, attributes);
 	}
 
 	/**
@@ -285,7 +360,31 @@ public class Graphology {
 
 		return new Graph(index != -1? file.getName().substring(0, index): file.getName(), labels, successors);
 	}
-	
+
+	public static String[] split_data(String line) {
+		ArrayList<String> data = new ArrayList<>();
+		StringBuilder current = new StringBuilder();
+		boolean flag = false;
+		for (String word: line.split(" ")) {
+			word = word.trim();
+			if (word.startsWith("\"")) {
+				flag = true;
+			} else if (word.endsWith("\"")) {
+				flag = false;
+				current.append(" ").append(word);
+				data.add(current.toString());
+				current.setLength(0);
+				continue;
+			}
+			if (flag) {
+				current.append(" ").append(word);
+			} else {
+				data.add(word);
+			}
+		}
+		return data.toArray(new String[0]);
+	}
+
 	/**
 	 * Reads a graph from the specified Pajek file.
 	 * <p>
@@ -309,21 +408,25 @@ public class Graphology {
 	public static Graph pajek(String filename) throws IOException {
 		File file = new File(filename);
 		BufferedReader reader = new BufferedReader(new FileReader(file));
-		
+
 		int n = -1;
-		
+
 		String line;
 		while ((line = reader.readLine()) != null) {
 			line = line.trim().toLowerCase();
-			
+
 			if (line.startsWith("*vertices"))
 				n = Integer.parseInt(line.split(" ")[1]);
 			else if (line.startsWith("*arcs"))
 				break;
 		}
-		
+
 		int[] degrees = new int[n];
-		
+
+		//@SuppressWarnings("unchecked")
+		//HashMap<String, String>[] attributes = new HashMap[n];
+		ArrayList<HashMap<String, String>> attributes = new ArrayList<>();
+
 		while ((line = reader.readLine()) != null) {
 			String[] nodes = line.trim().split(" ");
 
@@ -332,21 +435,37 @@ public class Graphology {
 		}
 
 		reader.close();
-		
+
 		int[] labels = new int[n];
 		int[][] successors = new int[n][];
-		
+
 		for (int i = 0; i < n; i++) {
 			labels[i] = i + 1;
 			successors[i] = new int[degrees[i]];
 		}
-		
+
 		reader = new BufferedReader(new FileReader(file));
-		
-		while ((line = reader.readLine()) != null) 
-			if (line.trim().toLowerCase().startsWith("*arcs"))
+
+		while ((line = reader.readLine()) != null) {
+			if (line.trim().toLowerCase().startsWith("*arcs")){
 				break;
-		
+			}
+			else if (!line.trim().toLowerCase().startsWith("*vertices")) {
+				//String[] line_data = line.trim().toLowerCase().split("/(?:[^\\s\"]+|\"[^\"]*\")+/g");
+				String[] line_data = split_data(line.trim().toLowerCase());
+				HashMap<String, String> node_att = new HashMap<>();
+
+				for (int i = 5; i < line_data.length-1; i+=2) {
+					//System.out.println(line);
+					//int node_idx = Integer.parseInt(line_data[0]) - 1;
+					//attributes[node_idx].put(line_data[i], line_data[i+1]);
+					node_att.put(line_data[i], line_data[i+1]);
+				}
+				attributes.add(node_att);
+			}
+
+		}
+
 		while ((line = reader.readLine()) != null) {
 			String[] nodes = line.trim().split(" ");
 
@@ -361,7 +480,8 @@ public class Graphology {
 		
 		int index = file.getName().lastIndexOf(".");
 
-		return new Graph(index != -1? file.getName().substring(0, index): file.getName(), labels, successors);
+		//return new Graph(index != -1? file.getName().substring(0, index): file.getName(), labels, successors); //, attributes);
+		return new Graph(index != -1? file.getName().substring(0, index): file.getName(), labels, successors, attributes);
 	}
 	
 }
