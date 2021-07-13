@@ -44,10 +44,9 @@ public class analysis {
 
         for (int i = 0; i < Math.min(25, nodes.size()); i++) {
             System.out.printf(String.format("%15s | %.30f ± %.30f", "'" + graph.getLabel(nodes.get(i)) + "'", intermediacy[nodes.get(i)], 1.96 * Math.sqrt(intermediacy[nodes.get(i)] * (1.0 - intermediacy[nodes.get(i)]) / samples)));
-            System.out.println(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(i))).toString());
+            System.out.println(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(nodes.get(i)))).toString());
         }
     }
-
 
     public static void main_testing(String[] args) throws IOException {
         /*
@@ -113,7 +112,6 @@ public class analysis {
 
     }
 
-
     public static void run_test(Graph graph, int source, int target, int method, double set_x, double alpha) {
         int samples = 1000000;
 
@@ -149,7 +147,6 @@ public class analysis {
         print(intermediate, nodes, intermediacies, source, target, samples);
     }
 
-
     public static void analysis_1(Graph graph) {
         int source = 40398; // which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge
         //int source = 40688; //role based label propagation algorithm for community detection
@@ -170,6 +167,10 @@ public class analysis {
         run_test(graph, source, target, method, set_x, alpha);
 
         method = 3;
+        set_x = 500.0;
+        alpha = 0.0; //0.00000001;
+        run_test(graph, source, target, method, set_x, alpha);
+
         set_x = 500.0;
         alpha = 10.0; //0.00000001;
         run_test(graph, source, target, method, set_x, alpha);
@@ -234,12 +235,12 @@ public class analysis {
         }
 
         double[][] intermediacies = new double[10][];
-        double results[][] = new double[10][nodes.size()];
+        //double results[][] = new double[10][nodes.size()];
 
         for (int i = 0; i < 10; i++) {
             Double alpha = (double) i / 10;
             intermediacies[i] = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
-            results[i] = prepare4corr(nodes, intermediacies[i]);
+            //results[i] = prepare4corr(nodes, intermediacies[i]);
         }
 
         System.out.printf("\n\nMethod: f(x) = alpha^x\nEdge weight(x): %f\nSamples: %d\n", set_x , samples);
@@ -251,23 +252,44 @@ public class analysis {
             }
         }
 
+        System.out.println("\n\nCorrelation matrix\n");
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                double corr = new SpearmansCorrelation().correlation(intermediacies[i], intermediacies[j]);
+                System.out.printf("%f, ", corr);
+            }
+            System.out.println("");
+        }
+
         // --------------------------------------------------------------------------
         set_x = 500.0;
         weights = prepare_weights(intermediate, set_x);
         method = 3;
+        intermediacies = new double[20][];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             Double alpha = (double) i * 100;
             intermediacies[i] = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
-            results[i] = prepare4corr(nodes, intermediacies[i]);
+            //results[i] = prepare4corr(nodes, intermediacies[i]);
         }
 
         System.out.printf("\n\nMethod: f(x) = x/(x + alpha)\nEdge weight(x): %f\nSamples: %d\n", set_x, samples);
-        for (int i = 0; i < 10; i++) {
-            for (int j = i; j < 10; j++) {
-                double corr = new PearsonsCorrelation().correlation(results[i], results[j]);
+        for (int i = 0; i < 20; i++) {
+            for (int j = i; j < 20; j++) {
+                double corr = new SpearmansCorrelation().correlation(intermediacies[i], intermediacies[j]);
                 System.out.printf("Alpha X,Y (non-zero): %f, %f (%b,%b) | Correlation: %f\n", (double)i*100, (double)j*100, check_zeroes(intermediacies[i]), check_zeroes(intermediacies[j]), corr);
             }
+        }
+
+        System.out.println("\n\nCorrelation matrix\n");
+
+        for (int i = 0; i < 20; i++) {
+            for (int j = 0; j < 20; j++) {
+                double corr = new SpearmansCorrelation().correlation(intermediacies[i], intermediacies[j]);
+                System.out.printf("%f, ", corr);
+            }
+            System.out.println("");
         }
     }
 
@@ -277,7 +299,7 @@ public class analysis {
         System.out.println("----------------------------------------------\n----------------- ANALYSIS 1 -----------------\n----------------------------------------------");
         analysis_1(graph);
         System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 2 -----------------\n----------------------------------------------");
-        analysis_2(graph);
+        //analysis_2(graph);
     }
 }
 
