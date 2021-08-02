@@ -1,0 +1,647 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/opt/intellij/lib/idea_rt.jar=45165:/opt/intellij/bin -Dfile.encoding=UTF-8 -classpath /home/luke/Documents/fax/magistrska/intermediacy/out/production/intermediacy:/home/luke/Documents/fax/magistrska/intermediacy/Intermediacy.jar analysis
+----------------------------------------------
+----------------- ANALYSIS 1 -----------------
+----------------------------------------------
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.010000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+            '9' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+          '706' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+          '716' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+          '721' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+          '743' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+          '939' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+          '969' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+         '1010' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '1011' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+         '1199' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+         '1724' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+         '1792' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '1949' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '2230' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '2232' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '2264' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '2509' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '2511' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '2517' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '2539' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '2637' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '2892' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "submodular approximation sampling based algorithms and lower bounds", paper_id=2953058253}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.700000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+            '9' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+          '706' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+          '716' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+          '721' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+          '743' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+          '939' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+          '969' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+         '1010' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '1011' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+         '1199' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+         '1724' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+         '1792' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '1949' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '2230' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '2232' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '2264' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '2509' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '2511' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '2517' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '2539' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '2637' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '2892' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "submodular approximation sampling based algorithms and lower bounds", paper_id=2953058253}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.850000
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000396000000000000000000000000 ± 0.000019895808201729328000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.000396000000000000000000000000 ± 0.000019895808201729328000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.000396000000000000000000000000 ± 0.000038995784075389480000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.000396000000000000000000000000 ± 0.000038995784075389480000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+        '40398' | 0.000396000000000000000000000000 ± 0.000038995784075389480000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+        '38840' | 0.000391000000000000000000000000 ± 0.000038748913434448714000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+        '40399' | 0.000391000000000000000000000000 ± 0.000038748913434448714000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+         '9756' | 0.000390000000000000000000000000 ± 0.000038699350028650350000000000 | {year=2014, label=26, title= "people are strange when you re a stranger impact and influence of bots on social networks", paper_id=1929461063}
+        '11305' | 0.000390000000000000000000000000 ± 0.000038699350028650350000000000 | {year=2016, label=26, title= "the rise of social bots", paper_id=1837843568}
+        '35082' | 0.000390000000000000000000000000 ± 0.000038699350028650350000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+        '35085' | 0.000390000000000000000000000000 ± 0.000038699350028650350000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+        '37461' | 0.000271000000000000000000000000 ± 0.000032261299866161620000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+        '37039' | 0.000270000000000000000000000000 ± 0.000032201738266124705000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+         '5077' | 0.000148000000000000000000000000 ± 0.000023842664565723354000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '22456' | 0.000147000000000000000000000000 ± 0.000023761990380976083000000000 | {year=2016, label=26, title= "the darpa twitter bot challenge", paper_id=2278635123}
+        '22458' | 0.000139000000000000000000000000 ± 0.000023106453134273980000000000 | {year=2014, label=26, title= "reverse engineering socialbot infiltration strategies in twitter", paper_id=2949724487}
+        '22455' | 0.000099000000000000000000000000 ± 0.000019500788406585002000000000 | {year=2016, label=26, title= "botornot a system to evaluate social bots", paper_id=2263846226}
+        '37038' | 0.000051000000000000000000000000 ± 0.000013996842786800171000000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+         '5074' | 0.000030000000000000000000000000 ± 0.000010735201095461604000000000 | {year=2015, label=38, title= "the relationship between the number of authors of a publication its citations and the impact factor of the publishing journal evidence from italy", paper_id=1209585085}
+         '6752' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14535' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+        '10935' | 0.000011000000000000000000000000 ± 0.000006500548835783022000000000 | {year=2013, label=26, title= "analyzing user behavior across social sharing environments", paper_id=2152608246}
+        '14533' | 0.000011000000000000000000000000 ± 0.000006500548835783022000000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '33948' | 0.000009000000000000000000000000 ± 0.000005879973539940464000000000 | {year=2011, label=10, title= "design of automatically adaptable web wrappers", paper_id=2949903761}
+        '35416' | 0.000008000000000000000000000000 ± 0.000005543694989589525000000000 | {year=2011, label=10, title= "intelligent self repairable web wrappers", paper_id=2153837623}
+          '462' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+
+------------------------------------------------------
+
+Edge weight (x): 5.000000
+Alpha: 0.999900
+Method: f(x) = alpha^x
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.999018000000000000000000000000 ± 0.000031321489045063590000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.999018000000000000000000000000 ± 0.000031321489045063590000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.999018000000000000000000000000 ± 0.000061390118528324630000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.999018000000000000000000000000 ± 0.000061390118528324630000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+        '40398' | 0.999018000000000000000000000000 ± 0.000061390118528324630000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+         '6752' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14533' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '14534' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2011, label=10, title= "automatic wrapper adaptation by tree edit distance matching", paper_id=2124157324}
+        '14535' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+        '33948' | 0.998528000000000000000000000000 ± 0.000075143271705361020000000000 | {year=2011, label=10, title= "design of automatically adaptable web wrappers", paper_id=2949903761}
+        '40399' | 0.998493000000000000000000000000 ± 0.000076030038393793670000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+        '35416' | 0.998011000000000000000000000000 ± 0.000087325509248824150000000000 | {year=2011, label=10, title= "intelligent self repairable web wrappers", paper_id=2153837623}
+        '10935' | 0.998002000000000000000000000000 ± 0.000087522460645446950000000000 | {year=2013, label=26, title= "analyzing user behavior across social sharing environments", paper_id=2152608246}
+        '37039' | 0.998002000000000000000000000000 ± 0.000087522460645446950000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+        '38840' | 0.998002000000000000000000000000 ± 0.000087522460645446950000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+         '5077' | 0.998000000000000000000000000000 ± 0.000087566166982459650000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '35082' | 0.998000000000000000000000000000 ± 0.000087566166982459650000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+         '5321' | 0.997544000000000000000000000000 ± 0.000097014418076193460000000000 | {year=2012, label=26, title= "defining and evaluating network communities based on ground truth", paper_id=2950974218}
+        '25862' | 0.997544000000000000000000000000 ± 0.000097014418076193460000000000 | {year=2011, label=26, title= "neighborhoods are good communities", paper_id=1942505030}
+        '35085' | 0.997502000000000000000000000000 ± 0.000097838362622406960000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+        '37461' | 0.997492000000000000000000000000 ± 0.000098033509016751140000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+        '25863' | 0.997042000000000000000000000000 ± 0.000106441719765408070000000000 | {year=2012, label=26, title= "fast matrix computations for pairwise and columnwise commute times and katz scores", paper_id=2102523324}
+        '37038' | 0.997025000000000000000000000000 ± 0.000106746238523892770000000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+         '5074' | 0.997006000000000000000000000000 ± 0.000107085545986853880000000000 | {year=2015, label=38, title= "the relationship between the number of authors of a publication its citations and the impact factor of the publishing journal evidence from italy", paper_id=1209585085}
+            '9' | 0.996500000000000000000000000000 ± 0.000115752064344441830000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '462' | 0.996500000000000000000000000000 ± 0.000115752064344441830000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 0.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+            '9' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+          '706' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "a local clustering algorithm for massive graphs and its application to nearly linear time graph partitioning", paper_id=2952395520}
+          '716' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=28, title= "recovering low rank matrices from few coefficients in any basis", paper_id=2166163936}
+          '721' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+          '743' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near optimal column based matrix reconstruction", paper_id=2950024299}
+          '939' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2014, label=10, title= "matrix coherence and the nystrom method", paper_id=1483387558}
+          '969' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=37, title= "composition attacks and auxiliary information in data privacy", paper_id=2953209903}
+         '1010' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2012, label=4, title= "calibrating data to sensitivity in private data analysis", paper_id=2951011752}
+         '1011' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "a learning theory approach to non interactive database privacy", paper_id=2951660154}
+         '1199' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=34, title= "thresholded covering algorithms for robust and max min optimization", paper_id=2953297433}
+         '1724' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "a sparse johnson lindenstrauss transform", paper_id=2949924912}
+         '1792' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from a few entries", paper_id=2949834189}
+         '1949' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "matrix completion with noise", paper_id=2952716509}
+         '2230' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "caveats for using statistical significance tests in research assessments", paper_id=2027890477}
+         '2232' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2013, label=38, title= "individual research performance a proposal for comparing apples to oranges", paper_id=2068169498}
+         '2264' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=24, title= "matrix completion from noisy entries", paper_id=2952066970}
+         '2509' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "submodular maximization by simulated annealing", paper_id=2949112927}
+         '2511' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=34, title= "constrained non monotone submodular maximization offline and secretary algorithms", paper_id=2952402597}
+         '2517' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=24, title= "a unified framework for approximating and clustering data", paper_id=2950431878}
+         '2539' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2010, label=9, title= "agnostic learning of monomials by halfspaces is hard", paper_id=2950665404}
+         '2637' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '2892' | 1.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "submodular approximation sampling based algorithms and lower bounds", paper_id=2953058253}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 10.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.947100000000000000000000000000 ± 0.000223833844625874100000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.947100000000000000000000000000 ± 0.000223833844625874100000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.947100000000000000000000000000 ± 0.000438714335466713200000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.947100000000000000000000000000 ± 0.000438714335466713200000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+        '40398' | 0.947100000000000000000000000000 ± 0.000438714335466713200000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+        '40399' | 0.931323000000000000000000000000 ± 0.000495691981262672400000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+         '6752' | 0.927167000000000000000000000000 ± 0.000509329878519626700000000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.927167000000000000000000000000 ± 0.000509329878519626700000000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14535' | 0.927167000000000000000000000000 ± 0.000509329878519626700000000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+        '14533' | 0.926508000000000000000000000000 ± 0.000511447065761196500000000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '33948' | 0.926458000000000000000000000000 ± 0.000511607211427886000000000000 | {year=2011, label=10, title= "design of automatically adaptable web wrappers", paper_id=2949903761}
+        '14534' | 0.926450000000000000000000000000 ± 0.000511632828340793700000000000 | {year=2011, label=10, title= "automatic wrapper adaptation by tree edit distance matching", paper_id=2124157324}
+        '38840' | 0.915731000000000000000000000000 ± 0.000544469992957171700000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+        '37039' | 0.915151000000000000000000000000 ± 0.000546167451135343900000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+        '35082' | 0.914590000000000000000000000000 ± 0.000547802054310715200000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+         '5077' | 0.912314000000000000000000000000 ± 0.000554361894989190800000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '35416' | 0.909176000000000000000000000000 ± 0.000563222978875860800000000000 | {year=2011, label=10, title= "intelligent self repairable web wrappers", paper_id=2153837623}
+        '10935' | 0.908967000000000000000000000000 ± 0.000563805823282180800000000000 | {year=2013, label=26, title= "analyzing user behavior across social sharing environments", paper_id=2152608246}
+        '37461' | 0.897883000000000000000000000000 ± 0.000593492137187627500000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+        '35085' | 0.893212000000000000000000000000 ± 0.000605333309385771000000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+         '5321' | 0.888284000000000000000000000000 ± 0.000617432775755798800000000000 | {year=2012, label=26, title= "defining and evaluating network communities based on ground truth", paper_id=2950974218}
+        '25862' | 0.888284000000000000000000000000 ± 0.000617432775755798800000000000 | {year=2011, label=26, title= "neighborhoods are good communities", paper_id=1942505030}
+        '37038' | 0.877623000000000000000000000000 ± 0.000642332609865351200000000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+        '25863' | 0.873346000000000000000000000000 ± 0.000651866547134775500000000000 | {year=2012, label=26, title= "fast matrix computations for pairwise and columnwise commute times and katz scores", paper_id=2102523324}
+         '5074' | 0.873277000000000000000000000000 ± 0.000652018330210641900000000000 | {year=2015, label=38, title= "the relationship between the number of authors of a publication its citations and the impact factor of the publishing journal evidence from italy", paper_id=1209585085}
+         '9756' | 0.867844000000000000000000000000 ± 0.000663774167361477300000000000 | {year=2014, label=26, title= "people are strange when you re a stranger impact and influence of bots on social networks", paper_id=1929461063}
+        '11305' | 0.867844000000000000000000000000 ± 0.000663774167361477300000000000 | {year=2016, label=26, title= "the rise of social bots", paper_id=1837843568}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 500.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.001502000000000000000000000000 ± 0.000038726528323618166000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.001502000000000000000000000000 ± 0.000038726528323618166000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.001502000000000000000000000000 ± 0.000075903995514291600000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.001502000000000000000000000000 ± 0.000075903995514291600000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+        '40398' | 0.001502000000000000000000000000 ± 0.000075903995514291600000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+        '40399' | 0.001479000000000000000000000000 ± 0.000075321465245004370000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+        '38840' | 0.001471000000000000000000000000 ± 0.000075117780774024470000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+        '35082' | 0.001461000000000000000000000000 ± 0.000074862391253061100000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+         '9756' | 0.001459000000000000000000000000 ± 0.000074811208111287710000000000 | {year=2014, label=26, title= "people are strange when you re a stranger impact and influence of bots on social networks", paper_id=1929461063}
+        '11305' | 0.001459000000000000000000000000 ± 0.000074811208111287710000000000 | {year=2016, label=26, title= "the rise of social bots", paper_id=1837843568}
+        '35085' | 0.001459000000000000000000000000 ± 0.000074811208111287710000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+        '37039' | 0.001069000000000000000000000000 ± 0.000064049046591986040000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+        '37461' | 0.001037000000000000000000000000 ± 0.000063084134791955420000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+         '5077' | 0.000669000000000000000000000000 ± 0.000050678506782090570000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '22458' | 0.000640000000000000000000000000 ± 0.000049568644127512705000000000 | {year=2014, label=26, title= "reverse engineering socialbot infiltration strategies in twitter", paper_id=2949724487}
+        '22456' | 0.000619000000000000000000000000 ± 0.000048749137927786987000000000 | {year=2016, label=26, title= "the darpa twitter bot challenge", paper_id=2278635123}
+        '22455' | 0.000517000000000000000000000000 ± 0.000044554240904515470000000000 | {year=2016, label=26, title= "botornot a system to evaluate social bots", paper_id=2263846226}
+        '37038' | 0.000209000000000000000000000000 ± 0.000028332430094688310000000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+         '6752' | 0.000193000000000000000000000000 ± 0.000027226562475670702000000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.000193000000000000000000000000 ± 0.000027226562475670702000000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14535' | 0.000193000000000000000000000000 ± 0.000027226562475670702000000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+         '5074' | 0.000135000000000000000000000000 ± 0.000022771604836725937000000000 | {year=2015, label=38, title= "the relationship between the number of authors of a publication its citations and the impact factor of the publishing journal evidence from italy", paper_id=1209585085}
+        '14533' | 0.000113000000000000000000000000 ± 0.000020833908577355330000000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '14534' | 0.000098000000000000000000000000 ± 0.000019402059304970695000000000 | {year=2011, label=10, title= "automatic wrapper adaptation by tree edit distance matching", paper_id=2124157324}
+        '10935' | 0.000092000000000000000000000000 ± 0.000018798794767154620000000000 | {year=2013, label=26, title= "analyzing user behavior across social sharing environments", paper_id=2152608246}
+        '33948' | 0.000087000000000000000000000000 ± 0.000018280867674418520000000000 | {year=2011, label=10, title= "design of automatically adaptable web wrappers", paper_id=2949903761}
+        '35416' | 0.000072000000000000000000000000 ± 0.000016630552761276457000000000 | {year=2011, label=10, title= "intelligent self repairable web wrappers", paper_id=2153837623}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 750.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000137000000000000000000000000 ± 0.000011703898111313170000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.000137000000000000000000000000 ± 0.000011703898111313170000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.000137000000000000000000000000 ± 0.000022939640298173810000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.000137000000000000000000000000 ± 0.000022939640298173810000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+        '40398' | 0.000137000000000000000000000000 ± 0.000022939640298173810000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+        '40399' | 0.000137000000000000000000000000 ± 0.000022939640298173810000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+         '9756' | 0.000136000000000000000000000000 ± 0.000022855777076406742000000000 | {year=2014, label=26, title= "people are strange when you re a stranger impact and influence of bots on social networks", paper_id=1929461063}
+        '11305' | 0.000136000000000000000000000000 ± 0.000022855777076406742000000000 | {year=2016, label=26, title= "the rise of social bots", paper_id=1837843568}
+        '35082' | 0.000136000000000000000000000000 ± 0.000022855777076406742000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+        '35085' | 0.000136000000000000000000000000 ± 0.000022855777076406742000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+        '38840' | 0.000136000000000000000000000000 ± 0.000022855777076406742000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+        '37039' | 0.000094000000000000000000000000 ± 0.000019002011883545382000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+        '37461' | 0.000091000000000000000000000000 ± 0.000018696357605437485000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+        '22458' | 0.000058000000000000000000000000 ± 0.000014926482400672973000000000 | {year=2014, label=26, title= "reverse engineering socialbot infiltration strategies in twitter", paper_id=2949724487}
+        '22456' | 0.000049000000000000000000000000 ± 0.000013719663855882184000000000 | {year=2016, label=26, title= "the darpa twitter bot challenge", paper_id=2278635123}
+         '5077' | 0.000039000000000000000000000000 ± 0.000012239957390710150000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '22455' | 0.000036000000000000000000000000 ± 0.000011759788318094845000000000 | {year=2016, label=26, title= "botornot a system to evaluate social bots", paper_id=2263846226}
+        '37038' | 0.000014000000000000000000000000 ± 0.000007333597142357902000000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+         '5074' | 0.000007000000000000000000000000 ± 0.000005185654419800842000000000 | {year=2015, label=38, title= "the relationship between the number of authors of a publication its citations and the impact factor of the publishing journal evidence from italy", paper_id=1209585085}
+         '6752' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14533' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '14534' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2011, label=10, title= "automatic wrapper adaptation by tree edit distance matching", paper_id=2124157324}
+        '14535' | 0.000002000000000000000000000000 ± 0.000002771855810391298400000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+            '9' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '462' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '721' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2009, label=28, title= "the power of convex relaxation near optimal matrix completion", paper_id=2949947345}
+
+------------------------------------------------------
+
+Edge weight (x): 500.000000
+Alpha: 1000.000000
+Method: f(x) = x/(x + alpha)
+Samples: 1000000
+
+   Intermediacy | ...
+         Source | 0.000021000000000000000000000000 ± 0.000004582527577658426000000000 | {year=2019, label=26, title= "from louvain to leiden guaranteeing well connected communities", paper_id=2897249806}
+         Target | 0.000021000000000000000000000000 ± 0.000004582527577658426000000000 | {year=1971, label=26, title= "objective criteria for the evaluation of clustering methods", paper_id=2033403400}
+         '2637' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2011, label=26, title= "the anatomy of the facebook social graph", paper_id=1893161742}
+         '4447' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2012, label=26, title= "social structure of facebook networks", paper_id=2150256170}
+         '9756' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2014, label=26, title= "people are strange when you re a stranger impact and influence of bots on social networks", paper_id=1929461063}
+        '11305' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2016, label=26, title= "the rise of social bots", paper_id=1837843568}
+        '35082' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2015, label=38, title= "national research impact indicators from mendeley readers", paper_id=2142637246}
+        '35085' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2014, label=38, title= "tweets as impact indicators examining the implications of automated bot accounts on twitter", paper_id=2953318847}
+        '38840' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2015, label=38, title= "a review of the literature on citation impact indicators", paper_id=2952533362}
+        '40398' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2017, label=38, title= "which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge", paper_id=2248369874}
+        '40399' | 0.000021000000000000000000000000 ± 0.000008981754052210515000000000 | {year=2015, label=38, title= "large scale analysis of the accuracy of the journal classification systems of web of science and scopus", paper_id=2949355343}
+        '37039' | 0.000014000000000000000000000000 ± 0.000007333597142357902000000000 | {year=2015, label=38, title= "more precise methods for national research citation impact comparisons", paper_id=2952208446}
+        '37461' | 0.000013000000000000000000000000 ± 0.000007066834565036880000000000 | {year=2016, label=38, title= "the precision of the arithmetic mean geometric mean and percentiles for citation data an experimental simulation modelling approach", paper_id=2193275474}
+        '22458' | 0.000008000000000000000000000000 ± 0.000005543694989589525000000000 | {year=2014, label=26, title= "reverse engineering socialbot infiltration strategies in twitter", paper_id=2949724487}
+         '5077' | 0.000006000000000000000000000000 ± 0.000004800985492833738000000000 | {year=2015, label=38, title= "field normalized citation impact indicators and the choice of an appropriate counting method", paper_id=2950504508}
+        '22455' | 0.000005000000000000000000000000 ± 0.000004382682279152801500000000 | {year=2016, label=26, title= "botornot a system to evaluate social bots", paper_id=2263846226}
+        '22456' | 0.000005000000000000000000000000 ± 0.000004382682279152801500000000 | {year=2016, label=26, title= "the darpa twitter bot challenge", paper_id=2278635123}
+        '37038' | 0.000003000000000000000000000000 ± 0.000003394814490601806200000000 | {year=2016, label=38, title= "national disciplinary and temporal variations in the extent to which articles with more authors have more impact evidence from a geometric field normalised citation indicator", paper_id=2179102784}
+         '6752' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2012, label=26, title= "a large scale community structure analysis in facebook", paper_id=2109584946}
+         '9139' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2011, label=26, title= "crawling facebook for social network analysis purposes", paper_id=2143286114}
+        '14533' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2010, label=26, title= "analyzing the facebook friendship graph", paper_id=1600978165}
+        '14534' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2011, label=10, title= "automatic wrapper adaptation by tree edit distance matching", paper_id=2124157324}
+        '14535' | 0.000001000000000000000000000000 ± 0.000001959999019999755300000000 | {year=2014, label=31, title= "web data extraction applications and techniques", paper_id=2148317291}
+            '9' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2009, label=28, title= "robust principal component analysis", paper_id=2951443864}
+          '367' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2011, label=34, title= "near linear work parallel sdd solvers low diameter decomposition and low stretch subgraphs", paper_id=2949607463}
+          '462' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=28, title= "exact matrix completion via convex optimization", paper_id=2949959192}
+          '705' | 0.000000000000000000000000000000 ± 0.000000000000000000000000000000 | {year=2008, label=34, title= "finding sparse cuts locally using evolving sets", paper_id=2951342368}
+
+----------------------------------------------
+----------------- ANALYSIS 2 -----------------
+----------------------------------------------
+
+
+Method: f(x) = alpha^x
+Edge weight(x): 2.000000
+Samples: 1000000
+Alpha X,Y (non-zero): 0.000000, 0.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.100000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.500000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.100000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.500000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.100000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.200000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.500000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.200000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.300000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.500000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.300000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.400000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.500000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.600000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.700000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.800000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.400000, 0.900000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.500000, 0.500000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.500000, 0.600000 (true,true) | Correlation: 0.741828
+Alpha X,Y (non-zero): 0.500000, 0.700000 (true,true) | Correlation: 0.462038
+Alpha X,Y (non-zero): 0.500000, 0.800000 (true,true) | Correlation: 0.437627
+Alpha X,Y (non-zero): 0.500000, 0.900000 (true,true) | Correlation: 0.436480
+Alpha X,Y (non-zero): 0.600000, 0.600000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.600000, 0.700000 (true,true) | Correlation: 0.616900
+Alpha X,Y (non-zero): 0.600000, 0.800000 (true,true) | Correlation: 0.561969
+Alpha X,Y (non-zero): 0.600000, 0.900000 (true,true) | Correlation: 0.556403
+Alpha X,Y (non-zero): 0.700000, 0.700000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.700000, 0.800000 (true,true) | Correlation: 0.937567
+Alpha X,Y (non-zero): 0.700000, 0.900000 (true,true) | Correlation: 0.923922
+Alpha X,Y (non-zero): 0.800000, 0.800000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 0.800000, 0.900000 (true,true) | Correlation: 0.993187
+Alpha X,Y (non-zero): 0.900000, 0.900000 (true,true) | Correlation: 1.000000
+
+
+Correlation matrix
+
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, 1.000000, 0.741828, 0.462038, 0.437627, 0.436480,
+NaN, NaN, NaN, NaN, NaN, 0.741828, 1.000000, 0.616900, 0.561969, 0.556403,
+NaN, NaN, NaN, NaN, NaN, 0.462038, 0.616900, 1.000000, 0.937567, 0.923922,
+NaN, NaN, NaN, NaN, NaN, 0.437627, 0.561969, 0.937567, 1.000000, 0.993187,
+NaN, NaN, NaN, NaN, NaN, 0.436480, 0.556403, 0.923922, 0.993187, 1.000000,
+
+
+Method: f(x) = x/(x + alpha)
+Edge weight(x): 500.000000
+Samples: 1000000
+Alpha X,Y (non-zero): 0.000000, 0.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 100.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 200.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 300.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 400.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 500.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 600.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 700.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 800.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 900.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1000.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1100.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1200.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1300.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1500.000000 (true,true) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 0.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 100.000000, 100.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 100.000000, 200.000000 (true,true) | Correlation: 0.995955
+Alpha X,Y (non-zero): 100.000000, 300.000000 (true,true) | Correlation: 0.990915
+Alpha X,Y (non-zero): 100.000000, 400.000000 (true,true) | Correlation: 0.975173
+Alpha X,Y (non-zero): 100.000000, 500.000000 (true,true) | Correlation: 0.960088
+Alpha X,Y (non-zero): 100.000000, 600.000000 (true,true) | Correlation: 0.861466
+Alpha X,Y (non-zero): 100.000000, 700.000000 (true,true) | Correlation: 0.833835
+Alpha X,Y (non-zero): 100.000000, 800.000000 (true,true) | Correlation: 0.761790
+Alpha X,Y (non-zero): 100.000000, 900.000000 (true,true) | Correlation: 0.613105
+Alpha X,Y (non-zero): 100.000000, 1000.000000 (true,true) | Correlation: 0.539614
+Alpha X,Y (non-zero): 100.000000, 1100.000000 (true,true) | Correlation: 0.488894
+Alpha X,Y (non-zero): 100.000000, 1200.000000 (true,true) | Correlation: 0.466291
+Alpha X,Y (non-zero): 100.000000, 1300.000000 (true,true) | Correlation: 0.472815
+Alpha X,Y (non-zero): 100.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 100.000000, 1500.000000 (true,true) | Correlation: 0.419999
+Alpha X,Y (non-zero): 100.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 100.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 100.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 100.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 200.000000, 200.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 200.000000, 300.000000 (true,true) | Correlation: 0.998095
+Alpha X,Y (non-zero): 200.000000, 400.000000 (true,true) | Correlation: 0.986034
+Alpha X,Y (non-zero): 200.000000, 500.000000 (true,true) | Correlation: 0.969029
+Alpha X,Y (non-zero): 200.000000, 600.000000 (true,true) | Correlation: 0.871534
+Alpha X,Y (non-zero): 200.000000, 700.000000 (true,true) | Correlation: 0.840468
+Alpha X,Y (non-zero): 200.000000, 800.000000 (true,true) | Correlation: 0.774642
+Alpha X,Y (non-zero): 200.000000, 900.000000 (true,true) | Correlation: 0.610104
+Alpha X,Y (non-zero): 200.000000, 1000.000000 (true,true) | Correlation: 0.544448
+Alpha X,Y (non-zero): 200.000000, 1100.000000 (true,true) | Correlation: 0.496111
+Alpha X,Y (non-zero): 200.000000, 1200.000000 (true,true) | Correlation: 0.468551
+Alpha X,Y (non-zero): 200.000000, 1300.000000 (true,true) | Correlation: 0.481604
+Alpha X,Y (non-zero): 200.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 200.000000, 1500.000000 (true,true) | Correlation: 0.422392
+Alpha X,Y (non-zero): 200.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 200.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 200.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 200.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 300.000000, 300.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 300.000000, 400.000000 (true,true) | Correlation: 0.990215
+Alpha X,Y (non-zero): 300.000000, 500.000000 (true,true) | Correlation: 0.973783
+Alpha X,Y (non-zero): 300.000000, 600.000000 (true,true) | Correlation: 0.876216
+Alpha X,Y (non-zero): 300.000000, 700.000000 (true,true) | Correlation: 0.841918
+Alpha X,Y (non-zero): 300.000000, 800.000000 (true,true) | Correlation: 0.777774
+Alpha X,Y (non-zero): 300.000000, 900.000000 (true,true) | Correlation: 0.610157
+Alpha X,Y (non-zero): 300.000000, 1000.000000 (true,true) | Correlation: 0.545293
+Alpha X,Y (non-zero): 300.000000, 1100.000000 (true,true) | Correlation: 0.496110
+Alpha X,Y (non-zero): 300.000000, 1200.000000 (true,true) | Correlation: 0.468551
+Alpha X,Y (non-zero): 300.000000, 1300.000000 (true,true) | Correlation: 0.481603
+Alpha X,Y (non-zero): 300.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 300.000000, 1500.000000 (true,true) | Correlation: 0.422391
+Alpha X,Y (non-zero): 300.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 300.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 300.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 300.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 400.000000, 400.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 400.000000, 500.000000 (true,true) | Correlation: 0.977693
+Alpha X,Y (non-zero): 400.000000, 600.000000 (true,true) | Correlation: 0.881933
+Alpha X,Y (non-zero): 400.000000, 700.000000 (true,true) | Correlation: 0.832460
+Alpha X,Y (non-zero): 400.000000, 800.000000 (true,true) | Correlation: 0.769316
+Alpha X,Y (non-zero): 400.000000, 900.000000 (true,true) | Correlation: 0.626772
+Alpha X,Y (non-zero): 400.000000, 1000.000000 (true,true) | Correlation: 0.545498
+Alpha X,Y (non-zero): 400.000000, 1100.000000 (true,true) | Correlation: 0.496297
+Alpha X,Y (non-zero): 400.000000, 1200.000000 (true,true) | Correlation: 0.468727
+Alpha X,Y (non-zero): 400.000000, 1300.000000 (true,true) | Correlation: 0.481784
+Alpha X,Y (non-zero): 400.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 400.000000, 1500.000000 (true,true) | Correlation: 0.422550
+Alpha X,Y (non-zero): 400.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 400.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 400.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 400.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 500.000000, 500.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 500.000000, 600.000000 (true,true) | Correlation: 0.898070
+Alpha X,Y (non-zero): 500.000000, 700.000000 (true,true) | Correlation: 0.833441
+Alpha X,Y (non-zero): 500.000000, 800.000000 (true,true) | Correlation: 0.774786
+Alpha X,Y (non-zero): 500.000000, 900.000000 (true,true) | Correlation: 0.645187
+Alpha X,Y (non-zero): 500.000000, 1000.000000 (true,true) | Correlation: 0.553255
+Alpha X,Y (non-zero): 500.000000, 1100.000000 (true,true) | Correlation: 0.503337
+Alpha X,Y (non-zero): 500.000000, 1200.000000 (true,true) | Correlation: 0.475051
+Alpha X,Y (non-zero): 500.000000, 1300.000000 (true,true) | Correlation: 0.488642
+Alpha X,Y (non-zero): 500.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 500.000000, 1500.000000 (true,true) | Correlation: 0.428557
+Alpha X,Y (non-zero): 500.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 500.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 500.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 500.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 600.000000, 600.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 600.000000, 700.000000 (true,true) | Correlation: 0.839046
+Alpha X,Y (non-zero): 600.000000, 800.000000 (true,true) | Correlation: 0.828432
+Alpha X,Y (non-zero): 600.000000, 900.000000 (true,true) | Correlation: 0.695749
+Alpha X,Y (non-zero): 600.000000, 1000.000000 (true,true) | Correlation: 0.596656
+Alpha X,Y (non-zero): 600.000000, 1100.000000 (true,true) | Correlation: 0.542808
+Alpha X,Y (non-zero): 600.000000, 1200.000000 (true,true) | Correlation: 0.512286
+Alpha X,Y (non-zero): 600.000000, 1300.000000 (true,true) | Correlation: 0.527651
+Alpha X,Y (non-zero): 600.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 600.000000, 1500.000000 (true,true) | Correlation: 0.462147
+Alpha X,Y (non-zero): 600.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 600.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 600.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 600.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 700.000000, 700.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 700.000000, 800.000000 (true,true) | Correlation: 0.779313
+Alpha X,Y (non-zero): 700.000000, 900.000000 (true,true) | Correlation: 0.646829
+Alpha X,Y (non-zero): 700.000000, 1000.000000 (true,true) | Correlation: 0.629026
+Alpha X,Y (non-zero): 700.000000, 1100.000000 (true,true) | Correlation: 0.573470
+Alpha X,Y (non-zero): 700.000000, 1200.000000 (true,true) | Correlation: 0.541603
+Alpha X,Y (non-zero): 700.000000, 1300.000000 (true,true) | Correlation: 0.557065
+Alpha X,Y (non-zero): 700.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 700.000000, 1500.000000 (true,true) | Correlation: 0.488247
+Alpha X,Y (non-zero): 700.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 700.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 700.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 700.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 800.000000, 800.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 800.000000, 900.000000 (true,true) | Correlation: 0.568352
+Alpha X,Y (non-zero): 800.000000, 1000.000000 (true,true) | Correlation: 0.659971
+Alpha X,Y (non-zero): 800.000000, 1100.000000 (true,true) | Correlation: 0.601322
+Alpha X,Y (non-zero): 800.000000, 1200.000000 (true,true) | Correlation: 0.567120
+Alpha X,Y (non-zero): 800.000000, 1300.000000 (true,true) | Correlation: 0.584559
+Alpha X,Y (non-zero): 800.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 800.000000, 1500.000000 (true,true) | Correlation: 0.511980
+Alpha X,Y (non-zero): 800.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 800.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 800.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 800.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 900.000000, 900.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 900.000000, 1000.000000 (true,true) | Correlation: 0.857505
+Alpha X,Y (non-zero): 900.000000, 1100.000000 (true,true) | Correlation: 0.779877
+Alpha X,Y (non-zero): 900.000000, 1200.000000 (true,true) | Correlation: 0.736257
+Alpha X,Y (non-zero): 900.000000, 1300.000000 (true,true) | Correlation: 0.758086
+Alpha X,Y (non-zero): 900.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 900.000000, 1500.000000 (true,true) | Correlation: 0.664199
+Alpha X,Y (non-zero): 900.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 900.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 900.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 900.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1000.000000, 1000.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 1000.000000, 1100.000000 (true,true) | Correlation: 0.908186
+Alpha X,Y (non-zero): 1000.000000, 1200.000000 (true,true) | Correlation: 0.854820
+Alpha X,Y (non-zero): 1000.000000, 1300.000000 (true,true) | Correlation: 0.884659
+Alpha X,Y (non-zero): 1000.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1000.000000, 1500.000000 (true,true) | Correlation: 0.767919
+Alpha X,Y (non-zero): 1000.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1000.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1000.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1000.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1100.000000, 1100.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 1100.000000, 1200.000000 (true,true) | Correlation: 0.944066
+Alpha X,Y (non-zero): 1100.000000, 1300.000000 (true,true) | Correlation: 0.971692
+Alpha X,Y (non-zero): 1100.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1100.000000, 1500.000000 (true,true) | Correlation: 0.850581
+Alpha X,Y (non-zero): 1100.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1100.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1100.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1100.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1200.000000, 1200.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 1200.000000, 1300.000000 (true,true) | Correlation: 0.907507
+Alpha X,Y (non-zero): 1200.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1200.000000, 1500.000000 (true,true) | Correlation: 0.901486
+Alpha X,Y (non-zero): 1200.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1200.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1200.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1200.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1300.000000, 1300.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 1300.000000, 1400.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1300.000000, 1500.000000 (true,true) | Correlation: 0.872747
+Alpha X,Y (non-zero): 1300.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1300.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1300.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1300.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1400.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1500.000000 (false,true) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1600.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1700.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1800.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1400.000000, 1900.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1500.000000, 1500.000000 (true,true) | Correlation: 1.000000
+Alpha X,Y (non-zero): 1500.000000, 1600.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1500.000000, 1700.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1500.000000, 1800.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1500.000000, 1900.000000 (true,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1600.000000, 1600.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1600.000000, 1700.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1600.000000, 1800.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1600.000000, 1900.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1700.000000, 1700.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1700.000000, 1800.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1700.000000, 1900.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1800.000000, 1800.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1800.000000, 1900.000000 (false,false) | Correlation: NaN
+Alpha X,Y (non-zero): 1900.000000, 1900.000000 (false,false) | Correlation: NaN
+
+
+Correlation matrix
+
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, 1.000000, 0.995955, 0.990915, 0.975173, 0.960088, 0.861466, 0.833835, 0.761790, 0.613105, 0.539614, 0.488894, 0.466291, 0.472815, NaN, 0.419999, NaN, NaN, NaN, NaN,
+NaN, 0.995955, 1.000000, 0.998095, 0.986034, 0.969029, 0.871534, 0.840468, 0.774642, 0.610104, 0.544448, 0.496111, 0.468551, 0.481604, NaN, 0.422392, NaN, NaN, NaN, NaN,
+NaN, 0.990915, 0.998095, 1.000000, 0.990215, 0.973783, 0.876216, 0.841918, 0.777774, 0.610157, 0.545293, 0.496110, 0.468551, 0.481603, NaN, 0.422391, NaN, NaN, NaN, NaN,
+NaN, 0.975173, 0.986034, 0.990215, 1.000000, 0.977693, 0.881933, 0.832460, 0.769316, 0.626772, 0.545498, 0.496297, 0.468727, 0.481784, NaN, 0.422550, NaN, NaN, NaN, NaN,
+NaN, 0.960088, 0.969029, 0.973783, 0.977693, 1.000000, 0.898070, 0.833441, 0.774786, 0.645187, 0.553255, 0.503337, 0.475051, 0.488642, NaN, 0.428557, NaN, NaN, NaN, NaN,
+NaN, 0.861466, 0.871534, 0.876216, 0.881933, 0.898070, 1.000000, 0.839046, 0.828432, 0.695749, 0.596656, 0.542808, 0.512286, 0.527651, NaN, 0.462147, NaN, NaN, NaN, NaN,
+NaN, 0.833835, 0.840468, 0.841918, 0.832460, 0.833441, 0.839046, 1.000000, 0.779313, 0.646829, 0.629026, 0.573470, 0.541603, 0.557065, NaN, 0.488247, NaN, NaN, NaN, NaN,
+NaN, 0.761790, 0.774642, 0.777774, 0.769316, 0.774786, 0.828432, 0.779313, 1.000000, 0.568352, 0.659971, 0.601322, 0.567120, 0.584559, NaN, 0.511980, NaN, NaN, NaN, NaN,
+NaN, 0.613105, 0.610104, 0.610157, 0.626772, 0.645187, 0.695749, 0.646829, 0.568352, 1.000000, 0.857505, 0.779877, 0.736257, 0.758086, NaN, 0.664199, NaN, NaN, NaN, NaN,
+NaN, 0.539614, 0.544448, 0.545293, 0.545498, 0.553255, 0.596656, 0.629026, 0.659971, 0.857505, 1.000000, 0.908186, 0.854820, 0.884659, NaN, 0.767919, NaN, NaN, NaN, NaN,
+NaN, 0.488894, 0.496111, 0.496110, 0.496297, 0.503337, 0.542808, 0.573470, 0.601322, 0.779877, 0.908186, 1.000000, 0.944066, 0.971692, NaN, 0.850581, NaN, NaN, NaN, NaN,
+NaN, 0.466291, 0.468551, 0.468551, 0.468727, 0.475051, 0.512286, 0.541603, 0.567120, 0.736257, 0.854820, 0.944066, 1.000000, 0.907507, NaN, 0.901486, NaN, NaN, NaN, NaN,
+NaN, 0.472815, 0.481604, 0.481603, 0.481784, 0.488642, 0.527651, 0.557065, 0.584559, 0.758086, 0.884659, 0.971692, 0.907507, 1.000000, NaN, 0.872747, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, 0.419999, 0.422392, 0.422391, 0.422550, 0.428557, 0.462147, 0.488247, 0.511980, 0.664199, 0.767919, 0.850581, 0.901486, 0.872747, NaN, 1.000000, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,
+
+Process finished with exit code 0

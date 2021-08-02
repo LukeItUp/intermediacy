@@ -113,7 +113,7 @@ public class analysis {
     }
 
     public static void run_test(Graph graph, int source, int target, int method, double set_x, double alpha) {
-        int samples = 1000000;
+        int samples = 10000; //1000000;
 
         String method_str = "";
         switch (method) {
@@ -148,9 +148,13 @@ public class analysis {
     }
 
     public static void analysis_1(Graph graph) {
-        int source = 40398; // which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge
+        //int source = 40398; // which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge
         //int source = 40688; //role based label propagation algorithm for community detection
-        int target = 19535; // community detection using a neighborhood strength driven label propagation algorithm
+        //int target = 19535; // community detection using a neighborhood strength driven label propagation algorithm
+        // ----
+        int source = 153033; // "a framework for second order eigenvector centralities and clustering coefficients" year 2019 label 26
+        //int source = 100709; // "from louvain to leiden guaranteeing well connected communities" year 2019 label 26
+        int target = 1030; // "objective criteria for the evaluation of clustering methods" year 1971 label 26
 
         int method = 2;
         Double set_x = 5.0;
@@ -218,9 +222,14 @@ public class analysis {
     }
 
     public static void analysis_2(Graph graph) {
-        int source = 40398; // which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge
-        int target = 19535; // community detection using a neighborhood strength driven label propagation algorithm
-        int samples = 1000000;
+        //int source = 40398; // which type of citation analysis generates the most accurate taxonomy of scientific and technical knowledge
+        //int target = 19535; // community detection using a neighborhood strength driven label propagation algorithm
+        // -----
+        int source = 153033; // "a framework for second order eigenvector centralities and clustering coefficients" year 2019 label 26
+        //int source = 100709; // "from louvain to leiden guaranteeing well connected communities" year 2019 label 26
+        int target = 1030; // "objective criteria for the evaluation of clustering methods" year 1971 label 26
+
+        int samples = 10000; //1000000;
         int method = 2;
         Double set_x = 2.0;
 
@@ -299,7 +308,7 @@ public class analysis {
         System.out.println("----------------------------------------------\n----------------- ANALYSIS 1 -----------------\n----------------------------------------------");
         analysis_1(graph);
         System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 2 -----------------\n----------------------------------------------");
-        //analysis_2(graph);
+        analysis_2(graph);
     }
 }
 
