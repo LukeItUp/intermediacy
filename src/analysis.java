@@ -17,8 +17,6 @@ public class analysis {
                 weights.put(edge, set_x);
             }
         }
-
-
         return weights;
     }
 
@@ -38,12 +36,15 @@ public class analysis {
 
         System.out.println(String.format("\n%15s | %s", "Intermediacy", "..."));
         System.out.printf(String.format("%15s | %.30f ± %.30f", "Source", intermediacy[source], Math.sqrt(intermediacy[source] * (1.0 - intermediacy[source]) / samples)));
+        System.out.printf(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(source))).get("title"));
         System.out.println(" | " + graph.getNodeAttributes(source).toString());
         System.out.printf(String.format("%15s | %.30f ± %.30f", "Target", intermediacy[target], Math.sqrt(intermediacy[target] * (1.0 - intermediacy[target]) / samples)));
+        System.out.printf(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(target))).get("title"));
         System.out.println(" | " + graph.getNodeAttributes(target).toString());
 
         for (int i = 0; i < Math.min(25, nodes.size()); i++) {
             System.out.printf(String.format("%15s | %.30f ± %.30f", "'" + graph.getLabel(nodes.get(i)) + "'", intermediacy[nodes.get(i)], 1.96 * Math.sqrt(intermediacy[nodes.get(i)] * (1.0 - intermediacy[nodes.get(i)]) / samples)));
+            System.out.printf(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(nodes.get(i)))).get("title"));
             System.out.println(" | " + graph.getNodeAttributes(graph.getNode(graph.getLabel(nodes.get(i)))).toString());
         }
     }
@@ -302,13 +303,187 @@ public class analysis {
         }
     }
 
+    public static String[] parse_fields(String line) {
+        ArrayList<String> data = new ArrayList<>();
+        StringBuilder current = new StringBuilder();
+        for (String word: line.split("'")) {
+            word = word.trim();
+            if (word.startsWith("[") || word.startsWith("]")) {
+                continue;
+            }
+            else if (word.startsWith(",")) {
+                data.add(current.toString().trim());
+                current.setLength(0);
+            } else {
+                current.append(" ").append(word);
+            }
+        }
+        return data.toArray(new String[0]);
+    }
+
+    public static Double count_fields(String[] fields1, String[] fields2) {
+        Double n = 0.0;
+        for (String field1: fields1) {
+            for (String field2: fields2) {
+                if (field1.equals(field2)) {
+                    n++;
+                }
+            }
+        }
+        return n;
+    }
+
+    public static HashMap<String, Double> weights_from_att(Graph graph, String attribute){
+        HashMap<String, Double> weights = new HashMap<>();
+        int[] labels = graph.getLabels();
+        for (int label: labels) {
+            int node = graph.getNode(label);
+            HashMap<String, String> node_att = graph.getNodeAttributes(node);
+            for (int successor: graph.getSuccessors(node)) {
+                HashMap<String, String> succ_att = graph.getNodeAttributes(node);
+                String edge = Integer.toString(node) + "-" + Integer.toString(successor);
+                double set_x = 1.0;
+
+                switch (attribute) {
+                    case "label":
+                        if (node_att.get("label").equals(succ_att.get("label"))){
+                            set_x += 1;
+                        }
+                        break;
+                    case "fields":
+                        set_x += count_fields(parse_fields(node_att.get("fields")), parse_fields(succ_att.get("fields")));
+                        break;
+                    case "CC_1":
+                        set_x += Double.parseDouble(node_att.get("cc"));
+                        break;
+                    case "CC_2":
+                        set_x += Double.parseDouble(succ_att.get("cc"));
+                        break;
+                    case "CC_3":
+                        set_x += Double.parseDouble(node_att.get("cc")) + Double.parseDouble(succ_att.get("cc"));
+                        break;
+                    case "A_CC_1":
+                        set_x += Double.parseDouble(node_att.get("a_cc"));
+                        break;
+                    case "A_CC_2":
+                        set_x += Double.parseDouble(succ_att.get("a_cc"));
+                        break;
+                    case "A_CC_3":
+                        set_x += Double.parseDouble(node_att.get("a_cc")) + Double.parseDouble(succ_att.get("a_cc"));
+                        break;
+                    case "A_PC_1":
+                        set_x += Double.parseDouble(node_att.get("a_pc"));
+                        break;
+                    case "A_PC_2":
+                        set_x += Double.parseDouble(succ_att.get("a_pc"));
+                        break;
+                    case "A_PC_3":
+                        set_x += Double.parseDouble(node_att.get("a_pc")) + Double.parseDouble(succ_att.get("a_pc"));
+                        break;
+                    case "A_ECC_1":
+                        set_x += Double.parseDouble(node_att.get("a_ecc"));
+                        break;
+                    case "A_ECC_2":
+                        set_x += Double.parseDouble(succ_att.get("a_ecc"));
+                        break;
+                    case "A_ECC_3":
+                        set_x += Double.parseDouble(node_att.get("a_ecc")) + Double.parseDouble(succ_att.get("a_ecc"));
+                        break;
+                    default:
+                        break;
+                }
+                weights.put(edge, set_x);
+            }
+        }
+        return weights;
+    }
+
+    public static Double avg_weight(HashMap<String, Double> weights) {
+        double avg = 0;
+        int n = 0;
+        Set<String> labels = weights.keySet();
+        for (String label: labels) {
+            n += 1;
+            avg += weights.get(label);
+        }
+        return Math.floor(avg/n);
+    }
+
+    public static Double percentile(HashMap<String, Double> weights, int percentile) {
+        String[] keys = weights.keySet().toArray(new String[0]);
+        ArrayList<Double> values = new ArrayList<Double>();
+        for (int i=0; i<keys.length; i++) {
+            values.add(weights.get(keys[i]));
+        }
+        Collections.sort(values);
+        int n =  (int) Math.floor((values.size() / 100.0) * percentile);
+        return values.get(n);
+    }
+
+    public static void analysis_3(Graph graph) {
+        //int source = 153033; // "a framework for second order eigenvector centralities and clustering coefficients" year 2019 label 26
+        int source = 100709; // "from louvain to leiden guaranteeing well connected communities" year 2019 label 26
+        int target = 1030; // "objective criteria for the evaluation of clustering methods" year 1971 label 26
+
+        int samples = 1000000;
+        int method = 3;
+
+        Graph intermediate = Graphology.induced(graph, Graphology.intermediate(graph, graph.getNode(source), graph.getNode(target)));
+
+        List<Integer> nodes = new ArrayList<Integer>();
+        for (int i = 0; i < intermediate.getN(); i++) {
+            if (intermediate.getLabel(i) != source && intermediate.getLabel(i) != target) {
+                nodes.add(i);
+            }
+        }
+
+        String[] attributes = {"label", "fields", "CC_1", "CC_2", "CC_3", "A_CC_1", "A_CC_2", "A_CC_3", "A_PC_1", "A_PC_2", "A_PC_3", "A_ECC_1", "A_ECC_2", "A_ECC_3"};
+        int[] percentiles =  {     50,      50,     25,     25,     25,       25,       25,       25,       25,       25,       25,        25,        25,        25}; // results_att_1.txt
+        //int[] percentiles =  {     33,      33,     15,     15,     15,        5,        5,        5,        5,        5,        5,         5,         5,         5}; // results_att_2.txt
+        double[][] intermediacies = new double[attributes.length][];
+        for (int i = 0; i < attributes.length; i++) {
+            HashMap<String, Double> weights = weights_from_att(intermediate, attributes[i]);
+            //Double alpha = (double) avg_weight(weights);
+            Double alpha = (double) percentile(weights, 35); //percentiles[i]);
+            intermediacies[i] = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
+
+            System.out.println("\n------------------------------------------------------\n");
+            System.out.printf("Alpha: %f (%dᵗʰ)\n", alpha, percentiles[i]);
+            System.out.printf("Attribute: %s\n", attributes[i]);
+            System.out.println("Method: f(x) = x/(x + alpha)");
+            System.out.printf("Samples: %d\n", samples);
+            print(intermediate, nodes, intermediacies[i], source, target, samples);
+        }
+
+        System.out.println("\n\nCorrelation matrix\n");
+        System.out.printf("     , ");
+        for (int i=0; i<attributes.length; i++) {
+            System.out.printf("%s (%dᵗʰ), ", attributes[i], percentiles[i]);;
+        }
+        System.out.println("");
+        for (int i = 0; i < attributes.length; i++) {
+            System.out.printf("%s (%dᵗʰ), ", attributes[i], percentiles[i]);
+            for (int j = 0; j < attributes.length; j++) {
+                double corr = new SpearmansCorrelation().correlation(intermediacies[i], intermediacies[j]);
+                System.out.printf("%f, ", corr);
+            }
+            System.out.println("");
+        }
+    }
 
     public static void main(String[] args) throws IOException {
+        /*
         Graph graph = Graphology.pajek("/home/luke/Documents/fax/magistrska/test_env/data/arxiv_network.net");
+
         System.out.println("----------------------------------------------\n----------------- ANALYSIS 1 -----------------\n----------------------------------------------");
         analysis_1(graph);
         System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 2 -----------------\n----------------------------------------------");
         analysis_2(graph);
+        */
+        Graph graph = Graphology.pajek("/home/luke/Documents/fax/magistrska/test_env/data/arxiv_att_network.net.bkp2");
+
+        System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 3 -----------------\n----------------------------------------------");
+        analysis_3(graph);
     }
 }
 

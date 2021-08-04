@@ -367,9 +367,10 @@ public class Graphology {
 		boolean flag = false;
 		for (String word: line.split(" ")) {
 			word = word.trim();
-			if (word.startsWith("\"")) {
+			if (word.startsWith("\"") || word.startsWith("[")) {
 				flag = true;
-			} else if (word.endsWith("\"")) {
+			}
+			if (word.endsWith("\"") || word.endsWith("]")) {
 				flag = false;
 				current.append(" ").append(word);
 				data.add(current.toString());
