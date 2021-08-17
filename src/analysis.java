@@ -471,6 +471,77 @@ public class analysis {
         }
     }
 
+    public static HashMap<String, Double> prepare_random_weights(Graph graph) {
+        HashMap<String, Double> weights = new HashMap<>();
+
+        int[] labels = graph.getLabels();
+        for (int label: labels) {
+            int node = graph.getNode(label);
+            for (int successor: graph.getSuccessors(node)) {
+                String edge = Integer.toString(node) + "-" + Integer.toString(successor);
+                Double set_x = Math.random() * 10;
+                weights.put(edge, set_x);
+            }
+        }
+        return weights;
+    }
+
+    public static void analysis_4(Graph graph) {
+        int source = 100709; // "from louvain to leiden guaranteeing well connected communities" year 2019 label 26
+        int target = 1030; // "objective criteria for the evaluation of clustering methods" year 1971 label 26
+
+        int samples = 1000000;
+        int method = 3;
+
+        Graph intermediate = Graphology.induced(graph, Graphology.intermediate(graph, graph.getNode(source), graph.getNode(target)));
+
+        List<Integer> nodes = new ArrayList<Integer>();
+        for (int i = 0; i < intermediate.getN(); i++) {
+            if (intermediate.getLabel(i) != source && intermediate.getLabel(i) != target) {
+                nodes.add(i);
+            }
+        }
+        double[] intermediacies;
+         HashMap<String, Double> weights = prepare_random_weights(intermediate); //weights_from_att(intermediate, "fields");
+        Double alpha = 5.0; //(double) avg_weight(weights);
+        //Double alpha = (double) percentile(weights, 50); //percentiles[i]);
+        intermediacies = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
+
+        System.out.println("\n------------------------------------------------------\n");
+        System.out.printf("Alpha: %f (max weight = 10)\n", alpha);
+        System.out.printf("Attribute: %s\n", "random weights");
+        System.out.println("Method: f(x) = x/(x + alpha)");
+        System.out.printf("Samples: %d\n", samples);
+        print(intermediate, nodes, intermediacies, source, target, samples);
+
+
+        weights = prepare_weights(intermediate, 10.0); //weights_from_att(intermediate, "fields");
+        //Double alpha = (double) avg_weight(weights);
+        //alpha = (double) percentile(weights, 50); //percentiles[i]);
+        intermediacies = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
+
+        System.out.println("\n------------------------------------------------------\n");
+        System.out.printf("Alpha: %f (all weights = 10)\n", alpha);
+        System.out.printf("Attribute: %s\n", "none");
+        System.out.println("Method: f(x) = x/(x + alpha)");
+        System.out.printf("Samples: %d\n", samples);
+        print(intermediate, nodes, intermediacies, source, target, samples);
+
+
+        weights = weights_from_att(intermediate, "fields");
+        //Double alpha = (double) avg_weight(weights);
+        alpha = (double) percentile(weights, 50); //percentiles[i]);
+        intermediacies = Graphology.intermediacy_extended(intermediate, intermediate.getNode(source), intermediate.getNode(target), samples, weights, method, alpha);
+
+        System.out.println("\n------------------------------------------------------\n");
+        System.out.printf("Alpha: %f (%dᵗʰ)\n", alpha, 50);
+        System.out.printf("Attribute: %s\n", "fields");
+        System.out.println("Method: f(x) = x/(x + alpha)");
+        System.out.printf("Samples: %d\n", samples);
+        print(intermediate, nodes, intermediacies, source, target, samples);
+
+    }
+
     public static void main(String[] args) throws IOException {
         /*
         Graph graph = Graphology.pajek("/home/luke/Documents/fax/magistrska/test_env/data/arxiv_network.net");
@@ -482,8 +553,12 @@ public class analysis {
         */
         Graph graph = Graphology.pajek("/home/luke/Documents/fax/magistrska/test_env/data/arxiv_att_network.net.bkp2");
 
-        System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 3 -----------------\n----------------------------------------------");
-        analysis_3(graph);
+//        System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 3 -----------------\n----------------------------------------------");
+//        analysis_3(graph);
+
+        System.out.println("\n----------------------------------------------\n----------------- ANALYSIS 4 -----------------\n----------------------------------------------");
+        analysis_4(graph);
+
     }
 }
 
